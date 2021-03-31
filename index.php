@@ -202,7 +202,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="mt-left">
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/yBabc9dG-q0">
+                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/yBabc9dG-q0">
                             </iframe>
                         </div>
                     </div>
@@ -217,9 +217,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti vero aperiam
                                     quaerat reiciendis ab libero molestiae omnis cumque, dolor blanditiis facere,
                                     laborum ducimus aspernatur earum quae culpa amet non. Lorem ipsum dolor sit amet
-                                    consectetur, adipisicing elit. Consequuntur accusamus illum quod voluptates dolor.
-                                    Ullam tenetur ratione nesciunt, voluptatum tempore officia, fugit voluptatem porro
-                                    unde excepturi iusto nemo ipsum laboriosam!</p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -229,7 +227,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="mt-left">
-                            <iframe width="100%" height="500"
+                            <iframe width="100%" height="450"
                                 src="https://www.youtube.com/embed/yBabc9dG-q0?autoplay=1">
                             </iframe>
                         </div>
@@ -245,9 +243,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti vero aperiam
                                     quaerat reiciendis ab libero molestiae omnis cumque, dolor blanditiis facere,
                                     laborum ducimus aspernatur earum quae culpa amet non. Lorem ipsum dolor sit amet
-                                    consectetur, adipisicing elit. Consequuntur accusamus illum quod voluptates dolor.
-                                    Ullam tenetur ratione nesciunt, voluptatum tempore officia, fugit voluptatem porro
-                                    unde excepturi iusto nemo ipsum laboriosam!</p>
+                                    consectetur, adipisicing </p>
                             </div>
                         </div>
                     </div>

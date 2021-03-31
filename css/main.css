@@ -34,7 +34,7 @@ body a {
 
 body a:hover {
   text-decoration: none;
-  color: #EA1818;
+  color: blue;
 }
 
 body a:focus {
@@ -42,11 +42,11 @@ body a:focus {
 }
 
 body p {
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: justify;
   line-height: 1.875em;
-  color: #7e8890;
-  font-size: 16px;
+  color: #666e74;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -81,9 +81,10 @@ h2,
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 36px;
+  font-size: 45px;
   line-height: 1.22em;
   font-weight: 400;
+  text-transform: capitalize;
   margin-bottom: 0;
 }
 
@@ -94,12 +95,24 @@ h4:focus {
   outline: none;
 }
 
+h6 {
+  font-size: 20px;
+}
+
 .no-pad {
   padding: 0;
 }
 
 .sec-padding {
   padding: 80px 0;
+}
+
+.sec-title {
+  padding: 20px 0;
+}
+
+.sec-title h6 {
+  color: #d61b23;
 }
 
 .sec-background {
@@ -156,8 +169,8 @@ h4:focus {
 }
 
 .header-main .header-left img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -186,7 +199,7 @@ h4:focus {
   font-size: 20px;
   height: 50px;
   width: 50px;
-  background-color: #5a8000;
+  background-color: #81b407;
   border-radius: 50%;
   line-height: 50px;
   text-align: center;
@@ -236,9 +249,17 @@ h4:focus {
   text-align: center;
 }
 
+.main-banner-single .mbs-content h5 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
 .main-banner-single .mbs-content h4 {
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0px 30px 0px;
   color: white;
   font-size: 86px;
   font-weight: 800;
@@ -255,8 +276,8 @@ h4:focus {
 }
 
 .main-banner-single .mbs-content a {
-  font-size: 15px;
-  padding: 10px 20px;
+  font-size: 13px;
+  padding: 10px 15px;
   background-color: #EA1818;
   border-radius: 50px;
   color: white;
@@ -266,7 +287,7 @@ h4:focus {
 }
 
 .main-banner-single::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -324,9 +345,326 @@ h4:focus {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  background-attachment: fixed;
 }
 
 .ms-single .ms-text {
   padding: 20px;
+}
+
+.bar-design img {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  bottom: 56px;
+}
+
+.main-about .sec-title h3 {
+  text-align: rights;
+}
+
+.main-about .ma-text {
+  padding: 0px 10px;
+}
+
+.main-about .ms-learn-more {
+  padding: 20px 0;
+}
+
+.main-about .ms-learn-more a {
+  font-size: 13px;
+  padding: 10px 15px;
+  background-color: #EA1818;
+  border-radius: 50px;
+  color: white;
+  width: auto;
+}
+
+.ma-img-one img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 3px 5px 5px 2px #19191930;
+          box-shadow: 3px 5px 5px 2px #19191930;
+}
+
+.main-service .ms-text h3 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-service .ms-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-service .sec-padding-custom {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.main-service .ms-main-obj-single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 10px 0;
+}
+
+.main-service .ms-main-obj-single .msol-img img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-service .ms-main-obj-single .ms-obj-right {
+  padding: 0 20px;
+}
+
+.main-service .ms-learn-more {
+  padding: 20px 0;
+}
+
+.main-service .ms-learn-more a {
+  font-size: 13px;
+  padding: 10px 15px;
+  background-color: #EA1818;
+  border-radius: 50px;
+  color: white;
+  width: auto;
+}
+
+.main-service .bar-design img {
+  position: relative;
+  top: 124px;
+}
+
+.main-testimonial {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.main-testimonial .mt-single {
+  z-index: 10;
+}
+
+.main-testimonial .sec-title h3 {
+  color: white;
+  z-index: 6;
+}
+
+.main-testimonial .mt-right {
+  padding: 0px 40px;
+}
+
+.main-testimonial .mt-right h4 {
+  color: white;
+  font-weight: 800;
+}
+
+.main-testimonial .mt-right p {
+  color: white;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.main-testimonial .mt-right span {
+  color: white;
+  display: block;
+  padding: 10px 0;
+}
+
+.main-testimonial .mt-right span::before {
+  content: "\f007";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.main-testimonial .mtr-profile img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.main-testimonial::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(32, 24, 110, 0.815);
+  height: 100%;
+  width: 100%;
+}
+
+.main-testimonial .slick-initialized .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-testimonial .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.main-testimonial .slick-dots li button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: -8px;
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0);
+  border: 1px solid;
+  border-radius: 8px;
+  outline: none;
+  margin-left: 4px;
+  background: #EA1818;
+}
+
+.at-your-service .sec-title {
+  text-align: center;
+}
+
+.at-your-service .sec-title h3 {
+  font-weight: 800;
+  padding: 10px 0px;
+  color: #640000;
+  letter-spacing: 10px;
+  font-size: 70px;
+  text-shadow: 5px 6px 1px #80808066;
+}
+
+.at-your-service .sec-title span {
+  color: grey;
+}
+
+.at-your-service .sec-title span i {
+  margin-right: 10px;
+  color: grey;
+}
+
+.at-your-service .ays-text {
+  padding-bottom: 20px;
+}
+
+.at-your-service .ays-text p {
+  text-align: center;
+}
+
+.at-your-service .ays-img {
+  padding: 10px 0;
+}
+
+.at-your-service .ays-img img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer-main .ftml-img img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer-main .ftml-text {
+  padding: 5px 20px;
+}
+
+.footer-main .ftml-text span a {
+  color: grey;
+}
+
+.footer-main .ftmc-link li {
+  padding: 5px 0;
+}
+
+.footer-main .social-link {
+  padding: 45px 0;
+}
+
+.footer-main .social-link ul li {
+  padding: 5px 0;
+}
+
+.footer-main .social-link ul li i {
+  margin-right: 5px;
+}
+
+.ftm-center {
+  margin-left: 60px;
+}
+
+.ftm-center .ftmr-form {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.ftmlt-contact {
+  padding: 10px 0;
+}
+
+.ftmlt-contact a i {
+  margin-right: 10px;
+  padding: 8px 0;
+}
+
+.ftmr-content h5 {
+  padding: 0 10px;
+}
+
+.ftmr-form {
+  padding: 20px 0;
+}
+
+.ftmr-form button {
+  background-color: #2542e8;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-bottom p {
+  text-align: center;
+}
+
+.footer-bottom p a {
+  color: black !important;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.custom-pad {
+  padding: 50px 0;
 }
 /*# sourceMappingURL=main.css.map */

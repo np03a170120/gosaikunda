@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="./css/slick.css">
@@ -26,10 +27,11 @@
                 <div class="header-right">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Services</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">About us</a></li>
-                        <li class="hr-call"><a href="tel:9847779841" title="9847779841"><i class="fas fa-phone"></i></a></li>
+                        <li class="hr-call"><a href="tel:9847779841" title="9847779841"><i class="fas fa-phone"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
