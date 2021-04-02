@@ -32,6 +32,14 @@
                 padding: 0 20px;
                 a {
                     color: white;
+                    transition: all 0.3s ease;
+                    padding: 6px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $secondary-color;
+                        padding: 6px;
+                        color: white;
+                    }
                 }
             }
         }

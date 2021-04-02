@@ -271,6 +271,16 @@ h6 {
 
 .header-main .header-right ul li a {
   color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.header-main .header-right ul li a:hover {
+  background-color: #EA1818;
+  padding: 6px;
+  color: white;
 }
 
 .header-main .header-right .hr-call a i {

@@ -28,6 +28,7 @@
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonial</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="about.php">About us</a></li>
                         <li class="hr-call"><a href="tel:9847779841" title="9847779841"><i class="fas fa-phone"></i></a>
