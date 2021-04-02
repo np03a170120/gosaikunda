@@ -3,6 +3,19 @@
   margin: 0;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.col-lg-12 {
+  position: relative;
+  height: 100%;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 body {
   font-size: 14px;
   line-height: 22px;
@@ -46,7 +59,7 @@ body p {
   text-align: justify;
   line-height: 1.875em;
   color: #666e74;
-  font-size: 18px;
+  font-size: 17px;
   margin: 0;
 }
 
@@ -147,6 +160,71 @@ h6 {
 #myTopbtn:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.inner-breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.inner-breadcrumb .sec-title {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.inner-breadcrumb .sec-title p {
+  color: white !important;
+}
+
+.inner-breadcrumb .sec-title h3 {
+  color: white !important;
+  font-weight: 800 !important;
+}
+
+.inner-breadcrumb::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(32, 24, 110, 0.815);
+  z-index: -1;
+}
+
+.ib-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ib-content .breadcrumb {
+  background-color: transparent;
+}
+
+.ib-content .breadcrumb a {
+  color: white;
+  font-size: 16px;
 }
 
 .header-main {
@@ -586,6 +664,88 @@ h6 {
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.abuc-img {
+  padding: 50px 0;
+}
+
+.abuc-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+}
+
+.abuc-text ul li {
+  padding: 10px 15px;
+  font-family: "Lato", sans-serif;
+  color: #666e74;
+  font-size: 16px;
+  width: 90%;
+  position: relative;
+  line-height: 25px;
+}
+
+.abuc-text ul li:before {
+  content: "\f111";
+  font-family: "Font Awesome 5 free";
+  font-weight: 800;
+  margin-right: 10px;
+  font-size: 8px;
+  position: absolute;
+  top: 12px;
+  left: 0px;
+}
+
+.cu-form .form-group {
+  width: 100%;
+}
+
+.cu-form button {
+  background-color: #2542E8;
+  font-size: 13px;
+}
+
+.cuc-contact {
+  text-align: center;
+  padding: 50px;
+  background-color: #291f62;
+  position: relative;
+  bottom: 100px;
+  z-index: 33;
+  -webkit-box-shadow: 1px 1px 5px #55555547;
+          box-shadow: 1px 1px 5px #55555547;
+}
+
+.cuc-contact a {
+  font-size: 20px;
+  color: #4e4e4e;
+  padding: 0 20px;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+
+.cuc-contact a span {
+  margin-left: 10px;
+}
+
+.cuc-contact a i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background-color: #ea1818;
+  border-radius: 50%;
+  line-height: 60px;
+}
+
+.cu-map {
+  padding: 0 20px;
+}
+
+.footer-main {
+  background-color: whitesmoke;
 }
 
 .footer-main .ftml-img img {

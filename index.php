@@ -88,7 +88,7 @@
                     </p>
 
                     <div class="ms-learn-more">
-                        <a href="#">Learn More</a>
+                        <a href="about.php">Learn More</a>
                     </div>
                 </div>
             </div>
