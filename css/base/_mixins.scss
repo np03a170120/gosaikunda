@@ -1,8 +1,15 @@
 @mixin btn-learn-more() {
-  font-size: 13px;
-  padding: 10px 15px;
-  background-color: $secondary-color;
-  border-radius: 50px;
-  color: white;
-  width: auto;
+    font-size: 13px;
+    padding: 10px 15px;
+    background-color: $secondary-color;
+    color: white;
+    width: auto;
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+    &:hover {
+        color: $secondary-color;
+        border: 1px solid red;
+        background: none;
+    }
 }

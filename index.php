@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="ma-img-one">
-                    <img src="./image/dummy1.jpg" alt="">
+                    <img src="./image/dummy-pn.png" alt="">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -104,21 +104,37 @@
             <h4>Our Services </h4>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="ms-text">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos soluta dolores
                         inventore. Dolores sit dolorum soluta expedita modi molestiae iusto totam, eius possimus et,
-                        ipsam obcaecati molestias voluptatibus sint. Lorem ipsum dolor sit amet</p>
+                        ipsam obcaecati molestias voluptatibus sint. Lorem ipsum dolor sit ametLorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Provident quos soluta dolores
+                        inventore. Dolores sit dolorum soluta expedita modi molestiae iusto totam, eius possimus et,
+                        ipsam obcaecati molestias voluptatibus sint. Lorem ipsum dolor sit ameLorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Provident quos soluta dolores
+                        inventore. Dolores sit dolorum soluta expedita modi molestiae iusto totam, eius possimus et,
+                        ipsam obcaecati molestias voluptatibus sint. Lorem ipsum dolor sit ame</p>
                     <div class="ms-main-obj-single">
                         <div class="ms-obj-left">
                             <div class="msol-img">
-                                <img src="./image/cleaning.png" alt="">
+                                <a href="service-one.php">
+                                    <img src="./image/cleaning.png" alt="">
+                                </a>
                             </div>
                         </div>
 
                         <div class="ms-obj-right">
+                            <h6><a href="service-one.php">Drainage Cleaning</a></h6>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore minima rerum
+                                ipsam labore minima rerum
+                                corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore
+                                minima rerum
+                                corrupti
+                                minima rerum
+                                corrupti
+                            </p>
                             </p>
                         </div>
                     </div>
@@ -129,8 +145,15 @@
                             </div>
                         </div>
                         <div class="ms-obj-right">
+                            <h6><a href="#">Watertank Cleaning</a></h6>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore minima rerum
+                                corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore minima rerum
+                                corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore
+                                minima rerum
+                                corrupti
+                                minima rerum
                                 corrupti
                             </p>
                         </div>
@@ -142,23 +165,27 @@
                             </div>
                         </div>
                         <div class="ms-obj-right">
+                            <h6> <a href="#">Cleaning Services</a></h6>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam labore minima rerum
+                                corrupti fugit ducimus exercitationem. At eum perferendis corporis eos voluptas alias
+                                totam maiores similique. Eum, libero enim?Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Amet ipsam labore minima rerum
                                 corrupti fugit ducimus exercitationem. At eum perferendis corporis eos voluptas alias
                                 totam maiores similique. Eum, libero enim?
                             </p>
                         </div>
                     </div>
                     <div class="ms-learn-more">
-                        <a href="#">Learn More</a>
+                        <a href="service.php">View More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="ms-img">
                     <img src="./image/dummy-truck.png" alt="">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -192,59 +219,49 @@
 
 
 <!-- MAIN TESTIMONIAL -->
-<section class="main-testimonial sec-padding" style="background-image: url(./image/dummy1.jpg);">
-    <div class=" container">
-        <div class="sec-title">
-            <h3>Our Testimonial</h3>
-        </div>
-        <div class="mt-slider testimonial-slider">
-            <div class="mt-single">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="mt-left">
-                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/yBabc9dG-q0">
-                            </iframe>
+<section class="main-testimonial sec-padding-custom">
+    <div class="container-fluid">
+        <div class="mt-content">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mtc-single">
+                        <div class="mtc-img">
+                            <img id="mtc-single-1" src="./image/potrait1.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mt-right">
-                            <div class="mtr-profile">
-                                <img src="./image/profile-dummy.png" alt="">
-                                <span>Naive Shrestha</span>
-                            </div>
-                            <div class="mt-text">
-                                <h4>Job done very responsibly !</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti vero aperiam
-                                    quaerat reiciendis ab libero molestiae omnis cumque, dolor blanditiis facere,
-                                    laborum ducimus aspernatur earum quae culpa amet non. Lorem ipsum dolor sit amet
-                                </p>
-                            </div>
+                        <div class="mtc-text">
+                            <h6>Naive Shrestha</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
+                                nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
+                                Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
+                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="mt-single">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="mt-left">
-                            <iframe width="100%" height="450"
-                                src="https://www.youtube.com/embed/yBabc9dG-q0?autoplay=1">
-                            </iframe>
+                <div class="col-lg-4">
+                    <div class="mtc-single">
+                        <div class="mtc-img">
+                            <img src="./image/potrait3.jpg" alt="">
+                        </div>
+                        <div class="mtc-text">
+                            <h6>Naive Shrestha</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
+                                nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
+                                Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
+                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="mt-right">
-                            <div class="mtr-profile">
-                                <img src="./image/profile-dummy.png" alt="">
-                                <span>Naive Shrestha</span>
-                            </div>
-                            <div class="mt-text">
-                                <h4>Job done very responsibly !</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti vero aperiam
-                                    quaerat reiciendis ab libero molestiae omnis cumque, dolor blanditiis facere,
-                                    laborum ducimus aspernatur earum quae culpa amet non. Lorem ipsum dolor sit amet
-                                    consectetur, adipisicing </p>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mtc-single">
+                        <div class="mtc-img">
+                            <img src="./image/potrait2.jpg" alt="">
+                        </div>
+                        <div class="mtc-text">
+                            <h6>Naive Shrestha</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
+                                nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
+                                Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
+                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
                 </div>
@@ -252,7 +269,6 @@
         </div>
     </div>
 </section>
-
 
 
 <?php include 'footer.php' ?>

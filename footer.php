@@ -4,10 +4,8 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="ftm-left">
-                        <div class="ftml-img">
-                            <img src="./image/logo.png" alt="">
-                        </div>
                         <div class="ftml-text">
+                            <span><a href="#">Privacy & Policy</a></span>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente reiciendis
                                 natus adipisci, consequuntur laborum. Nemo qui non incidunt quas totam obcaecati,
@@ -22,7 +20,7 @@
                                     <li><a href="#"><i class="fas fa-envelope"></i>comapany@email.com</a></li>
                                 </ul>
                             </div>
-                            <span><a href="#">Privacy & Policy</a></span>
+
                         </div>
                     </div>
                 </div>
@@ -94,6 +92,9 @@
     </div>
     <div class="footer-bottom">
         <div class="container-fluid p-2">
+            <!-- <div class="ftml-img">
+                <img src="./image/logo.png" alt="">
+            </div> -->
             <p>© 2021 Copyright. Powered by
                 <a class="text-white" href="https://www.ultrabyteit.com/" target="_blank">Ultrabyte</a>
             </p>
