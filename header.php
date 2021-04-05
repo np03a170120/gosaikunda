@@ -27,10 +27,12 @@
                 <div class="header-right">
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="service.php">Services</a></li>
+                        <li><a href="testimonial.php">Testimonial</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="about.php">About us</a></li>
-                        <li class="hr-call"><a href="tel:9847779841" title="9847779841"><i class="fas fa-phone"></i></a>
+                        <li class="hr-call"><a href="tel:9847779841" title="9847779841"><i
+                                    class="fas fa-phone-alt"></i>014486712</a>
                         </li>
                     </ul>
                 </div>
