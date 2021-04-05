@@ -96,7 +96,7 @@
                 <img src="./image/logo.png" alt="">
             </div> -->
             <p>© 2021 Copyright. Powered by
-                <a class="text-white" href="https://www.ultrabyteit.com/" target="_blank">Ultrabyte</a>
+                <a href="https: //www.ultrabyteit.com/" target="_blank">Ultrabyte</a>
             </p>
         </div>
 

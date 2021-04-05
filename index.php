@@ -209,9 +209,6 @@
                     provident temporibus obcaecati esse unde aliquam porro mollitia nobis consequatur, tenetur placeat
                     quas dolorem, dignissimos blanditiis molestias expedita aut quae cum?</p>
             </div>
-            <div class="box-design">
-
-            </div>
         </div>
 
     </div>
@@ -225,6 +222,9 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="mtc-single">
+                        <div class="mtc-top-img">
+                            <img src="./image/potrait1.jpg" alt="">
+                        </div>
                         <div class="mtc-img">
                             <img id="mtc-single-1" src="./image/potrait1.jpg" alt="">
                         </div>
@@ -233,12 +233,15 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
                                 nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
                                 Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
-                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
+                            <small><a href="testimonial.php"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="mtc-single">
+                        <div class="mtc-top-img">
+                            <img src="./image/potrait3.jpg" alt="">
+                        </div>
                         <div class="mtc-img">
                             <img src="./image/potrait3.jpg" alt="">
                         </div>
@@ -247,12 +250,15 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
                                 nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
                                 Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
-                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
+                            <small><a href="testimonial.php"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="mtc-single">
+                        <div class="mtc-top-img">
+                            <img src="./image/potrait2.jpg" alt="">
+                        </div>
                         <div class="mtc-img">
                             <img src="./image/potrait2.jpg" alt="">
                         </div>
@@ -261,7 +267,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum eligendi iure
                                 nisi ab dolores voluptatem ipsa quisquam reprehenderit quos, odio, perferendis minus!
                                 Earum voluptatum facere, ipsa inventore beatae officiis! lore</p>
-                            <small><a href="#"><i class="fas fa-info-circle"></i></a></small>
+                            <small><a href="testimonial.php"><i class="fas fa-info-circle"></i></a></small>
                         </div>
                     </div>
                 </div>

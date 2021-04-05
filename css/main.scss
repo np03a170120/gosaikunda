@@ -45,18 +45,19 @@
         }
         .hr-call {
             a {
+                font-size: 20px;
+                height: 50px;
+                width: 50px;
+                background-color: none;
+                border: 3px solid $secondary-color;
+                line-height: 50px;
+                text-align: center;
+                transition: 0.1s linear;
                 i {
-                    font-size: 20px;
-                    height: 50px;
-                    width: 50px;
-                    background-color: #81b407;
-                    border-radius: 50%;
-                    line-height: 50px;
-                    text-align: center;
-                    transition: 0.1s linear;
-                    &:hover {
-                        transform: scale(1.1);
-                    }
+                    padding-right: 10px;
+                }
+                &:hover {
+                    transform: scale(1.1) !important;
                 }
             }
         }
@@ -283,6 +284,21 @@
 // MAIN TESTIMONIAL
 .main-testimonial {
     .mtc-single {
+        position: relative;
+        .mtc-top-img {
+            position: absolute;
+            bottom: 80%;
+            left: 40%;
+            text-align: center;
+            z-index: 22;
+            img {
+                height: 120px;
+                width: 120px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+        }
         .mtc-img {
             overflow: hidden;
             position: relative;
@@ -494,6 +510,36 @@
     }
 }
 
+// Testimonital Php
+.testimonial {
+    .tc-single {
+        background-color: whitesmoke;
+        padding: 60px;
+        .tc-title {
+            h4 {
+                padding: 5px 0;
+            }
+        }
+        .tc-profile {
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 5px solid white;
+            }
+        }
+        .tc-video {
+            padding: 20px 0;
+        }
+        .tc-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
 // Footer main
 .ftml-img {
     text-align: center;
@@ -530,6 +576,9 @@
         }
     }
     .social-link {
+        h5 {
+            color: white;
+        }
         padding: 45px 0;
         ul {
             li {
@@ -545,57 +594,51 @@
             }
         }
     }
-}
-
-.ftm-center {
-    margin-left: 60px;
+    .ftm-center {
+        margin-left: 60px;
+        .ftmr-form {
+            padding: 20px 0;
+            width: 100%;
+        }
+    }
+    .ftmlt-contact {
+        padding: 10px 0;
+        a {
+            color: white;
+            i {
+                margin-right: 10px;
+                padding: 8px 0;
+                color: white;
+            }
+        }
+    }
+    .ftmr-content {
+        h5 {
+            color: white;
+            padding: 0 10px;
+        }
+    }
     .ftmr-form {
         padding: 20px 0;
-        width: 100%;
-    }
-}
-
-.ftmlt-contact {
-    padding: 10px 0;
-    a {
-        color: white;
-        i {
-            margin-right: 10px;
-            padding: 8px 0;
+        button {
+            background-color: #2542e8;
             color: white;
+            font-size: 12px;
         }
     }
-}
-
-.ftmr-content {
-    h5 {
-        color: white;
-        padding: 0 10px;
-    }
-}
-
-.ftmr-form {
-    padding: 20px 0;
-    button {
-        background-color: #2542e8;
-        color: white;
-        font-size: 12px;
-    }
-}
-
-.footer-bottom {
-    p {
-        text-align: center;
-        a {
-            color: black !important;
+    .footer-bottom {
+        p {
+            text-align: center;
+            a {
+                color: black !important;
+            }
         }
     }
-}
-
-.form-group {
-    margin-bottom: 1rem;
-    width: 80%;
-    color: white;
+    .form-group {
+        margin-bottom: 1rem;
+        width: 80%;
+        color: white;
+    }
 }
 
 .custom-pad {
