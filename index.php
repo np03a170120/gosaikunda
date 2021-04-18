@@ -12,6 +12,7 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil laboriosam repellat fugiat eaque
                         fugit dolore quasi praesentium in maiores, vero reprehenderit ipsum, enim labore aliquam vel,
                         expedita animi dignissimos architecto?Lorem ipsum dolor.
+
                     </p>
 
                     <div class="mbs-learn-more">
@@ -69,12 +70,12 @@
             <h3>About Us</h3>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-6 col-12">
                 <div class="ma-img-one">
                     <img src="./image/dummy-pn.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-6 col-12">
                 <div class="ma-text">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quisquam commodi ex placeat
@@ -104,7 +105,7 @@
             <h4>Our Services </h4>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-12">
                 <div class="ms-text">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos soluta dolores
                         inventore. Dolores sit dolorum soluta expedita modi molestiae iusto totam, eius possimus et,
@@ -220,7 +221,7 @@
     <div class="container-fluid">
         <div class="mt-content">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="mtc-single">
                         <div class="mtc-top-img">
                             <img src="./image/potrait1.jpg" alt="">
@@ -237,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-lg-12">
                     <div class="mtc-single">
                         <div class="mtc-top-img">
                             <img src="./image/potrait3.jpg" alt="">
@@ -254,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-lg-12">
                     <div class="mtc-single">
                         <div class="mtc-top-img">
                             <img src="./image/potrait2.jpg" alt="">
