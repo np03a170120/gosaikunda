@@ -6,9 +6,6 @@
 @import "./base/base";
 @import "./base/mixins";
 @import "./base/variables";
-@import "./bootstrap/breakpoints";
-@import "./bootstrap/functions";
-@import "./bootstrap/variables";
 //   HEADER PHP
 .header-main {
     display: flex;
@@ -715,18 +712,6 @@
     .ms-text {
         padding: 0 10px;
     }
-    .main-testimonial .mtc-single .mtc-text p {
-        color: white !important;
-        line-height: 1.3rem;
-        font-size: 13px;
-    }
-    .main-testimonial .mtc-single .mtc-text {
-        padding: 4px 25px;
-    }
-    .main-testimonial .mtc-single .mtc-top-img {
-        left: 50%;
-        transform: translateX(-50%);
-    }
     .footer-main .ftm-center {
         display: flex;
         align-items: center;
@@ -791,6 +776,9 @@
         font-size: 12px;
         line-height: 20px;
         text-align: left;
+    }
+    .cuc-contact {
+        display: none;
     }
 }
 

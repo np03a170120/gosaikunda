@@ -238,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-lg-12">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="mtc-single">
                         <div class="mtc-top-img">
                             <img src="./image/potrait3.jpg" alt="">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-lg-12">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="mtc-single">
                         <div class="mtc-top-img">
                             <img src="./image/potrait2.jpg" alt="">

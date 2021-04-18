@@ -1060,19 +1060,6 @@ h6 {
   .ms-text {
     padding: 0 10px;
   }
-  .main-testimonial .mtc-single .mtc-text p {
-    color: white !important;
-    line-height: 1.3rem;
-    font-size: 13px;
-  }
-  .main-testimonial .mtc-single .mtc-text {
-    padding: 4px 25px;
-  }
-  .main-testimonial .mtc-single .mtc-top-img {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
   .footer-main .ftm-center {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1143,6 +1130,9 @@ h6 {
     font-size: 12px;
     line-height: 20px;
     text-align: left;
+  }
+  .cuc-contact {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
