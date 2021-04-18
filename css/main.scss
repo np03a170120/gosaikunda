@@ -783,3 +783,58 @@
 }
 
 // RESPONSIVE - TABLET
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body p {
+        font-size: 13px;
+    }
+    .header-right {
+        display: none;
+    }
+    .main-banner-single .mbs-content h4 {
+        font-size: 48px;
+    }
+    .main-banner-single .mbs-content p {
+        width: 70%;
+        font-size: 15px;
+    }
+    .main-testimonial .mtc-single .mtc-text {
+        padding: 1px 19px;
+        bottom: 5px;
+    }
+    .main-testimonial .mtc-single .mtc-text p {
+        line-height: 1.2rem;
+        font-size: 12px;
+    }
+    .main-testimonial .mtc-single .mtc-img img {
+        height: 280px;
+    }
+    .main-testimonial .mtc-single .mtc-top-img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main-testimonial .mtc-single .mtc-top-img img {
+        height: 100px;
+        width: 100px;
+    }
+    .footer-main .ftm-center {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-main .form-group {
+        width: 100%;
+    }
+    .footer-main .ftmr-form {
+        padding: 20px;
+    }
+    .footer-main .ftmr-content h5 {
+        padding: 0px 20px;
+    }
+    .cuc-contact {
+        display: none;
+    }
+    .cu-map {
+        padding: 30px 20px;
+    }
+}
