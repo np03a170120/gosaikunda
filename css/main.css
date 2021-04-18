@@ -994,4 +994,208 @@ h6 {
 .custom-pad {
   padding: 50px 0;
 }
+
+@media (max-width: 575.98px) {
+  body p {
+    font-size: 15px;
+    margin: 0;
+  }
+  .col-lg-12,
+  .col-lg-5,
+  .col-lg-4 {
+    padding: 0;
+  }
+  .header-right {
+    display: none;
+  }
+  .main-banner-single h4 {
+    font-size: 14px;
+  }
+  .main-banner-single .mbs-content h4 {
+    font-size: 27px;
+  }
+  .main-banner-single .mbs-content p {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .sec-padding {
+    padding: 35px 0;
+  }
+  .main-service .ms-main-obj-single {
+    display: block;
+    text-align: center;
+    background-color: white;
+  }
+  .main-service .ms-main-obj-single .msol-img {
+    padding: 40px;
+    background: white;
+  }
+  .main-service .ms-main-obj-single .msol-img img {
+    height: 100px;
+    width: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main-service .ms-learn-more {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .main-about .ms-learn-more {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .main-about .ma-text {
+    padding: 0px 0px;
+  }
+  .at-your-service .sec-title h3 {
+    letter-spacing: 5px;
+    font-size: 45px;
+  }
+  .main-service .ms-main-obj-single .ms-obj-right {
+    padding: 0px 10px;
+  }
+  .ms-text {
+    padding: 0 10px;
+  }
+  .footer-main .ftm-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 0;
+  }
+  .footer-main .form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+    color: white;
+    padding: 0px 10px;
+    /* text-align: center; */
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 35px;
+    line-height: 1.22em;
+    margin-bottom: 0;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  .at-your-service .ays-text p {
+    text-align: justify;
+  }
+  .main-testimonial .mtc-single {
+    margin-top: 60px;
+  }
+  .main-testimonial .mtc-single:last-child {
+    padding-bottom: 0px;
+  }
+  .ms-obj-right h6 {
+    font-size: 20px;
+  }
+  .abuc-img img {
+    height: 350px;
+  }
+  .abuc-text ul li {
+    font-size: 13px;
+    width: 100%;
+    line-height: 23px;
+    text-align: justify;
+  }
+  .ib-content .breadcrumb a {
+    color: white;
+    font-size: 12px;
+  }
+  .inner-breadcrumb .sec-title h3 {
+    font-size: 25px;
+  }
+  .ss-image img {
+    width: 100%;
+    height: 355px;
+  }
+  .ss-image .ss-img-caption span {
+    padding: 1px 9px;
+    font-size: 11px;
+  }
+  .ss-image .ss-img-caption p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .cuc-contact {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body p {
+    font-size: 13px;
+  }
+  .header-right {
+    display: none;
+  }
+  .main-banner-single .mbs-content h4 {
+    font-size: 48px;
+  }
+  .main-banner-single .mbs-content p {
+    width: 70%;
+    font-size: 15px;
+  }
+  .main-testimonial .mtc-single .mtc-text {
+    padding: 1px 19px;
+    bottom: 5px;
+  }
+  .main-testimonial .mtc-single .mtc-text p {
+    line-height: 1.2rem;
+    font-size: 12px;
+  }
+  .main-testimonial .mtc-single .mtc-img img {
+    height: 280px;
+  }
+  .main-testimonial .mtc-single .mtc-top-img {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .main-testimonial .mtc-single .mtc-top-img img {
+    height: 100px;
+    width: 100px;
+  }
+  .footer-main .ftm-center {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-main .form-group {
+    width: 100%;
+  }
+  .footer-main .ftmr-form {
+    padding: 20px;
+  }
+  .footer-main .ftmr-content h5 {
+    padding: 0px 20px;
+  }
+  .cuc-contact {
+    display: none;
+  }
+  .cu-map {
+    padding: 30px 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

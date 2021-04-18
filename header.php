@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Gosaikunda</title>
 </head>
